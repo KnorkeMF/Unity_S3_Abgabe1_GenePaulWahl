@@ -8,7 +8,7 @@ public class DialogueTrigger : MonoBehaviour
     [SerializeField] private DialogueController dialogueController;
     
     private bool canInteract = false;
-    private bool hasTriggeredDialogue = false; // <-- NEU
+    private bool hasTriggeredDialogue = false;
     
 
     void Start()
@@ -22,14 +22,14 @@ public class DialogueTrigger : MonoBehaviour
         if (!hasTriggeredDialogue && canInteract && Keyboard.current.eKey.wasPressedThisFrame)
         {
             dialogueController.StartDialogue();
-            hasTriggeredDialogue = true;      // <-- verhindert, dass der Dialog erneut startet
-            highlight.SetActive(false);       // <-- highlight dauerhaft aus
+            hasTriggeredDialogue = true;
+            highlight.SetActive(false);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!hasTriggeredDialogue)           // <-- nur anzeigen, wenn der Dialog noch nicht getriggert wurde
+        if (!hasTriggeredDialogue)
         {
             highlight.SetActive(true);
             canInteract = true;

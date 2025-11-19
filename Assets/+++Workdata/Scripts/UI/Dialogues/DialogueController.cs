@@ -93,13 +93,11 @@ public class DialogueController : MonoBehaviour
     {
         Color activeColor = new Color(1f, 1f, 1f, 1f);
         Color fadedColor = new Color(1f, 1f, 1f, 0.3f);
-
-        // Erst alles ausgrauen
+        
         knightImmage.color = fadedColor;
         mageImage.color = fadedColor;
         playerImage.color = fadedColor;
-
-        // Sprecher hervorheben
+        
         activeImage.color = activeColor;
     }
 
