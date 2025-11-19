@@ -1228,7 +1228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef7465fd90466641a02cb9b630e0372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueController
-  inkAsset: {fileID: 4900000, guid: d23e3860bce3ca54cb897637e3bb8830, type: 3}
+  inkAsset: {fileID: 4900000, guid: 5c175436c6255fb4988469dd233d420a, type: 3}
   dialogueBox: {fileID: 1095962351}
   knightImmage: {fileID: 1296899079}
   mageImage: {fileID: 1254295648}
@@ -15354,7 +15354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.64779866, g: 0.5376447, b: 0.095743775, a: 0.6117647}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
